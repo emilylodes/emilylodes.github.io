@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="0" xmlns = "http://xspf.org/ns/0/">
+  <trackList>
+
+   <track>
+    <location>mp3player/give_thanks_intro.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Give thanks intro</annotation>
+   </track>
+
+   <track>
+    <location>mp3player/psalm_100.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Psalm 100</annotation>
+   </track>
+
+   <track>
+    <location>mp3player/overflowing.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Overflowing</annotation>
+   </track>
+   
+   <track>
+    <location>mp3player/totally_dependent.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Totally dependent</annotation>
+   </track>
+
+   <track>
+    <location>mp3player/make_me_like_you.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Make me like you</annotation>
+   </track>
+
+   <track>
+    <location>mp3player/make_me_a_worshipper.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Make me a worshipper</annotation>
+   </track>
+   
+   <track>
+    <location>mp3player/quiet_places.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Quiet places</annotation>
+   </track>
+
+   <track>
+    <location>mp3player/closer.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Closer</annotation>
+   </track>
+ 
+   <track>
+    <location>mp3player/hazme_un_instrumento.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Hazme un instrumento</annotation>
+   </track>
+   
+   <track>
+    <location>mp3player/lullaby.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Lullaby</annotation>
+   </track>
+   
+   <track>
+    <location>mp3player/no_greater_love.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>No greater love</annotation>
+   </track>
+   
+   <track>
+    <location>mp3player/i_surrender_all.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>I surrender all</annotation>
+   </track>
+   
+   <track>
+    <location>mp3player/give_thanks_to_the_lord.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Give thanks to the Lord</annotation>
+   </track>
+   
+   <track>
+    <location>mp3player/worship.mp3</location>
+    <image>mp3player/coverart.jpg</image>
+    <annotation>Worship</annotation>
+   </track>
+   
+  </trackList>
+</playlist>

@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Invent Media Flash Photogallery - Instructions</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="settings.css">
+</head>
+<body>
+<div id="page">
+	<div id="contentNS">
+    <h2 class="title">How to use</h2>
+    <br>
+    <p>If you use the &quot;Invent Media Flash PhotoGallery&quot; we would love to hear from you. Please send us a shout-out via our <a href="http://www.inventmedia.com.au/contact.php" title="contact">contact</a> page. We may even link to your site as a demo.</p>
+       <h3>Create thumbnails</h3>
+    <p>Create thumbnails for the images that you are going to use. The thumbnails should 100 pixels wide and 67 pixels high. There are many tools online that can create thumbnails automatically for you. <strong>Note: images and thumbnails must be in .jpg format.</strong> Images can be any size however it is recommended that they are 800 pixels wide and 600 pixels high.</p>
+    <br>
+
+	  <h3>Edit the images.xml file </h3>
+        <p>Edit the &quot;images.xml&quot; (Note: the images.xml file must not be renamed) file using any text editor (e.g. Notepad) to include the image  name,  location, and caption, thumbnail name and location. The code below demonstrates how to do this. You only need to modify the code in <span class="codeYellow">yellow</span>.</p>
+  <div class="code">
+        &lt;pic&gt;<br>
+        &nbsp;&nbsp;&nbsp; &lt;image&gt;<span class="codeYellow">image_location/image_name.jpg</span>&lt;/image&gt;<br>
+        &nbsp;&nbsp;&nbsp; &lt;caption&gt;<span class="codeYellow">image_caption</span>&lt;/caption&gt;<br>
+        &nbsp;&nbsp;&nbsp; &lt;thumbnail&gt;<span class="codeYellow">image_thumbnail_location/image_thumbnail_name.jpg</span>&lt;/thumbnail&gt;<br>
+        &lt;/pic&gt;
+    </div>
+    <p>Example</p>
+    <div class="code">
+        &lt;pic&gt;<br>
+        &nbsp;&nbsp;&nbsp; &lt;image&gt;<span class="codeYellow">images/photo1.jpg</span>&lt;/image&gt;<br>
+        &nbsp;&nbsp;&nbsp; &lt;caption&gt;<span class="codeYellow">A day at the beach</span>&lt;/caption&gt;<br>
+        &nbsp;&nbsp;&nbsp; &lt;thumbnail&gt;<span class="codeYellow">images/photo1thumb.jpg</span>&lt;/thumbnail&gt;<br>
+        &lt;/pic&gt;
+    </div>
+	<p>To add more images simply cut an paste the entire text between and including the <span class="code"> &lt;pic&gt;&lt;/pic&gt;</span> tags.</p>
+   <br>
+	
+    <h3>Embed the flash file</h3>    
+	<p>There are many ways embed the Flash file into your HTML code. I currently use the following code base on this recommendation from<a href="http://kb.adobe.com/selfservice/viewContent.do?externalId=tn_4150&sliceId=1"> Adobe</a>.</p>
+	<p>You must change the code in <span class="codeYellow">yellow</span>. The code in <span class="codeGreen">green</span> is optional.</p>
+    
+    <div class="code">
+        &lt;object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,18,0" width="<span class="codeGreen">width in pixels - default is 810</span>" height="<span class="codeGreen">height in pixels - default is 740</span> id="imgallery" align="middle"&gt;<br>
+        &lt;param name="allowScriptAccess" value="sameDomain" /&gt;<br>
+        &lt;param name="allowFullScreen" value="true" /&gt;<br>
+        &lt;param name="movie" value="<span class="codeYellow">flash_file_path/imgallery.swf</span>" /&gt;<br>
+        &lt;param name="quality" value="high" /&gt;<br>
+        &lt;param name="scale" value="noscale" /&gt;<br>
+        &lt;param name="bgcolor" value="<span class="codeGreen">background color</span>" /&gt;<br>
+        &lt;embed src="<span class="codeYellow">flash_file_path/imgallery.swf</span>" quality="high" allowFullScreen="true" scale="noscale"  bgcolor="<span class="codeGreen">background color</span>" width="<span class="codeGreen">width in pixels - default is 810</span>" height="<span class="codeGreen">height in pixels - default is 740</span>" name="imgallery" align="middle" allowScriptAccess="sameDomain" type= "application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /&gt;<br>
+        &lt;/object&gt;<br>
+       </div> 
+         <p>Example</p>  
+    <div class="code">
+        &lt;object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,18,0" width="<span class="codeGreen">810</span>" height="<span class="codeGreen">740"</span> id="imgallery" align="middle"&gt;<br>
+        &lt;param name="allowScriptAccess" value="sameDomain" /&gt;<br>
+        &lt;param name="allowFullScreen" value="true" /&gt;<br>
+        &lt;param name="movie" value="<span class="codeYellow">gallery/imgallery.swf</span>" /&gt;<br>
+        &lt;param name="quality" value="high" /&gt;<br>
+        &lt;param name="scale" value="noscale" /&gt;<br>
+        &lt;param name="bgcolor" value="<span class="codeGreen">#1d1917</span>" /&gt;<br>
+        &lt;embed src="<span class="codeYellow">gallery/imgallery.swf</span>" quality="high" allowFullScreen="true" scale="noscale"  bgcolor="<span class="codeGreen">#1d1917</span>" width="<span class="codeGreen">810</span>" height="<span class="codeGreen">740</span>" name="imgallery" align="middle" allowScriptAccess="sameDomain" type= "application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /&gt;<br>
+        &lt;/object&gt;<br>
+     </div> 
+     <p>If you use the HTML 4.01 strict !DOCTYPE you can also use this code</p>  
+    <div class="code">
+        &lt;object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" width="<span class="codeGreen">810</span>" height="<span class="codeGreen">740</span>"&gt;<br>
+        &lt;param name="allowScriptAccess" value="sameDomain"&gt;<br>
+        &lt;param name="allowFullScreen" value="true"&gt;<br>
+        &lt;param name="movie" value="<span class="codeYellow">gallery/imgallery.swf</span>"&gt;<br>
+        &lt;param name="quality" value="high"&gt;<br>
+        &lt;param name="scale" value="noscale"&gt;<br>
+        &lt;param name="bgcolor" value="<span class="codeGreen">#1d1917</span>"&gt;<br>
+        &lt;!--[if !IE]&gt; &lt;--&gt;<br>
+        &lt;object data="<span class="codeYellow">gallery/imgallery.swf</span>" width="<span class="codeGreen">810</span>" height="<span class="codeGreen">740</span>" type="application/x-shockwave-flash"&gt;<br>
+		&lt;param name="allowScriptAccess" value="sameDomain"&gt;<br>
+	    &lt;param name="allowFullScreen" value="true"&gt;<br>
+        &lt;param name="movie" value="<span class="codeYellow">gallery/imgallery.swf</span>"&gt;<br>
+        &lt;param name="quality" value="high"&gt;<br>
+        &lt;param name="scale" value="noscale"&gt;<br>
+        &lt;param name="bgcolor" value="<span class="codeGreen">#1d1917</span>"&gt;<br>
+        &lt;param name="allowFullScreen" value="true"&gt;<br>
+        &lt;param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer"&gt;<br>
+        FAIL (Flash Plugin not installed).
+        &lt;/object&gt;<br>
+        &lt;!--> &lt;![endif]--&gt;<br>        
+        &lt;/object&gt;<br>
+     </div>  
+     
+     <br>
+     
+	<h3>Upload</h3>             
+    <p>Upload the imgallery.swf, along with you new webpage and your images including the thumbnails to your server. The images can be in any path as long as they match what is defined in the images.xml file. For example &quot;/images/gallery&quot;</p>        
+    <p><strong>Please note the the images.xml file must be the same folder as the webpage.</strong> The flash &quot;imgallery.swf&quot; can be in any path as long as you specify the path in the webpage when you embed the flash object.</p>
+  </div> <!-- end page -->
+ </div>
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<images>
+	<pic>
+        <image>imgallery/gallery/photo01.jpg</image>
+        <caption>Gaol bars & beams</caption>
+        <thumbnail>imgallery/gallery/photo01thumb.jpg</thumbnail>
+    </pic>
+	<pic>
+        <image>imgallery/gallery/photo02.jpg</image>
+        <caption>Bridge</caption>
+        <thumbnail>imgallery/gallery/photo02thumb.jpg</thumbnail>
+    </pic>
+	<pic>
+        <image>imgallery/gallery/photo03.jpg</image>
+        <caption>River</caption>
+        <thumbnail>imgallery/gallery/photo03thumb.jpg</thumbnail>
+    </pic>
+    <pic>
+        <image>imgallery/gallery/photo04.jpg</image>
+        <caption>Mombasa</caption>
+        <thumbnail>imgallery/gallery/photo04thumb.jpg</thumbnail>
+     </pic>
+    <pic>
+        <image>imgallery/gallery/photo05.jpg</image>
+        <caption>Night lights</caption>
+        <thumbnail>imgallery/gallery/photo05thumb.jpg</thumbnail>
+    </pic>
+    <pic>
+        <image>imgallery/gallery/photo06.jpg</image>
+        <caption>Sydney Harbour</caption>
+        <thumbnail>imgallery/gallery/photo06thumb.jpg</thumbnail>
+    </pic>
+    <pic>
+        <image>imgallery/gallery/photo07.jpg</image>
+        <caption>Luna Park</caption>
+        <thumbnail>imgallery/gallery/photo07thumb.jpg</thumbnail>
+    </pic>
+    <pic>
+        <image>imgallery/gallery/photo08.jpg</image>
+        <caption>Old fashion ride</caption>
+        <thumbnail>imgallery/gallery/photo08thumb.jpg</thumbnail>
+    </pic>
+    <pic>
+        <image>imgallery/gallery/photo09.jpg</image>
+        <caption>Macro screws</caption>
+        <thumbnail>imgallery/gallery/photo09thumb.jpg</thumbnail>
+    </pic>				
+	  <pic>
+        <image>imgallery/gallery/terrell.jpg</image>
+        <caption>Invent Media Flash PhotoGallery</caption>
+        <thumbnail>imgallery/gallery/terrellthumb.jpg</thumbnail>
+    </pic>				
+	  <pic>
+        <image>imgallery/gallery/helen.jpg</image>
+        <caption>Invent Media Flash PhotoGallery</caption>
+        <thumbnail>imgallery/gallery/helenthumb.jpg</thumbnail>
+    </pic>				
+      <pic>
+        <image>imgallery/gallery/logo01.jpg</image>
+        <caption>Invent Media Flash PhotoGallery</caption>
+        <thumbnail>imgallery/gallery/logo01thumb.jpg</thumbnail>
+    </pic>	
+</images>
